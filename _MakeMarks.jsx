@@ -1,3 +1,5 @@
+// Createing square regmarks for selection
+
 if ( app.selection == false ) {
 
 	alert("Select Object/Group!");
