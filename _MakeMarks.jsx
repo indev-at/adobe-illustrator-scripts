@@ -1,8 +1,5 @@
-// Createing square regmarks for selection
-
-if ( app.selection == false ) {
-
-	alert("Select Object/Group!");
+if ( !documents.length || app.selection == false ) {
+	alert("Please open a document and select objects first.");
 
 } else {
 
@@ -27,6 +24,7 @@ if ( app.selection == false ) {
 	var markSize = 5*mm;
 
 	var markSize = prompt("Mark-Size in mm: ", 5) * mm;
+
 
 	// GET PERIMETER DATA
 	function getPerimeter(){
